@@ -13,7 +13,7 @@ The project focuses on finding the optimal route from point A to point B within 
 
 To use this project, follow these steps:
 
-1. Import the function into your Python script or environment:
+1. Import the function into your Python script or environment:  
 ```from routing_optimizer import optimalRoute```
 
 2. Define the necessary input variables:
@@ -21,20 +21,21 @@ To use this project, follow these steps:
     - end: Destination point as an integer.
     - passengers: A list of integers representing passenger locations.
     - roads: A list of tuples containing road information in the format (start_vertex, end_vertex, standard_time, carpool_time).  
-    Example input:
-    ```
-    start = 0
-    end = 5
-    passengers = [2, 1]
-    roads = [
-        (4, 5, 200, 2),
-        (0, 2, 2, 2),
-        (1, 3, 10, 5),
-        (3, 5, 50, 50),
-        (2, 4, 10, 10),
-        (0, 1, 1, 1)
-    ]
-    ```
+
+Example input:
+```
+start = 0
+end = 5
+passengers = [2, 1]
+roads = [
+    (4, 5, 200, 2),
+    (0, 2, 2, 2),
+    (1, 3, 10, 5),
+    (3, 5, 50, 50),
+    (2, 4, 10, 10),
+    (0, 1, 1, 1)
+]
+```
 
 3. Call the optimalRoute function with the defined input variables, the result will be a list of integers representing all the vertices visited in the optimal route.
 
